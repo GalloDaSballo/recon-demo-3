@@ -5,7 +5,7 @@ contract Counter {
     uint128 public number;
 
     function setNumber(uint64 newNumber) public {
-        number = newNumber; //  a webhook 
+        number = newNumber; //  a webhook a 
     }
 
     function increment() public {
