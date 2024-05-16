@@ -11,7 +11,7 @@ abstract contract TargetFunctions is BaseTargetFunctions, Properties, BeforeAfte
 
     function counter_increment() public {
       try counter.increment() {} catch {
-        t(false, "We have reverted due to overflow");
+        t(false, "We have again due to overflow");
       }
     }
 
